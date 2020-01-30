@@ -1,0 +1,188 @@
+@import 'fonts.css';
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    /* outline: 1px solid red; */
+}
+
+
+
+
+/*=================================================HEADER START=====================================*/
+
+header{
+    height: 100px;
+}
+
+header .container ul li a{
+    font-family: 'Montserrat-Medium';
+    font-size: 12px;
+    color: #191919;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header .container ul li a:hover{
+    color: #007d2f;
+    text-decoration: none;
+}
+
+/*==================================================HEADER END=====================================*/
+
+/*==================================================MAIN START=====================================*/
+
+.amelia__bg{
+    height: 350px;
+    background: #323232;
+}
+
+.amelia__bg h3{
+    font-family: 'Montserrat-Medium';
+    font-size: 60px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.amelia__bg p{
+    font-family: 'NunitoSans-Regular';
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+.icon__bg{
+    background: #007d2f;
+    height: 240px;
+}
+
+.icon__item .icon{
+    font-size: 49px;
+    color: #ffffff;
+}
+
+.icon__item span{
+    font-family: 'Montserrat-Medium';
+    font-size: 19px;
+    color: #ffffff;
+}
+
+.icon__item .text{
+    font-family: 'Montserrat-Medium';
+    font-size: 13px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.container-fluid .row .left,
+.container-fluid .row .right{
+    padding: 0;
+    margin: 0;
+}
+
+.left img{
+    width: 100%;
+    height: 100%;
+}
+
+main .right{
+    background: #f5f5f5;
+}
+
+.right h3{
+    font-family: 'Montserrat-Medium';
+    font-size: 30px;
+    color: #171717;
+    margin-bottom: 40px;
+}
+
+
+.right p{
+    font-family: 'NunitoSans-Regular';
+    font-size: 16px;
+    color: #787878;
+    width: 445px;
+    line-height: 24px;
+}
+
+.right h3, .right p, .right img{
+    margin-left: 110px;
+}
+
+.right img{
+    margin-top: 30px;
+}
+
+
+.talk{
+    height: 397px;
+}
+
+.talk h3{
+    font-family: 'Montserrat-Medium';
+    font-size: 30px;
+    color: #1d1d1d;
+}
+
+.talk p{
+    font-family: 'NunitoSans-Regular';
+    font-size: 16px;
+    color: #787878;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.talk a{
+    background: #007d2f;
+    padding: 23px 42px;
+    font-family: 'Montserrat-Medium';
+    font-size: 12px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.talk a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/*==================================================MAIN END=====================================*/
+
+footer{
+    height: 284px;
+    background: #141414;
+}
+
+footer .container{
+    height: 100%;
+}
+
+.right ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+.right ul li a:hover{
+    color: wheat;
+}
+
+.left h4, .left p{
+    color: white;
+}
+
+.middle a{
+    text-decoration: none;
+    color: white;
+}
+
+.middle a:hover{
+    text-decoration: none;
+    color: wheat;
+}
