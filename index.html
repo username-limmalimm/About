@@ -8,98 +8,126 @@
     <link rel="stylesheet" href="Style/fonts.css">
     <link rel="stylesheet" href="Icon-font-7/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
-    <title>Document</title>
+    <title>About</title>
 </head>
 <body>
-    <header class="d-flex">
-        <div class="container d-flex justify-content-between align-items-center">
-            <a href="../../Lesson 17/index.html"><img src="Pictures/logo.png" alt=""></a>
-            <ul class="col-3 d-flex justify-content-between">
+    <header>
+        <div class="container">
+            <div class="d-flex header__content justify-content-between align-items-center">
+                <a href="../../Lesson 17/index.html"><img src="Pictures/logo.png" alt=""></a>
+            <ul class="col-12 col-md-3 col-lg-3 d-flex justify-content-between">
                 <li><a href="../Home/index.html">home</a></li>
                 <li><a href="../About/index.html">about</a></li>
                 <li><a href="../Contact/index.html">contact</a></li>
             </ul>
+            </div>
         </div>
     </header>
 
     <main>
         <div class="amelia__bg">
-            <div class="container amelia__bg d-flex flex-column justify-content-center align-items-center col-4">
-                <h3>amelia woods</h3>
+            <div class="container amelia__bg">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-7">
+                        <h3 class="text-center">amelia woods</h3>
                 <p>I am a Graphic & Web Designer based in New York, specializing 
                     in User Interface Design and Development.</p>
-            </div>
-        </div>
-
-        <div class="icon__bg">
-            <div class="container icon__bg d-flex align-items-center justify-content-center justify-content-between">
-                <div class="icon__item d-flex flex-column align-items-center">
-                    <p class="icon pe-7s-portfolio"></p>
-                    <span>548</span>
-                    <p class="text">project complated</p>
-                </div>
-
-                <div class="icon__item d-flex flex-column align-items-center">
-                    <p class="icon pe-7s-clock"></p>
-                    <span>1465</span>
-                    <p class="text">working hours</p>
-                </div>
-
-                <div class="icon__item d-flex flex-column align-items-center">
-                    <p class="icon pe-7s-star"></p>
-                    <span>612</span>
-                    <p class="text">positive feedbacks</p>
-                </div>
-
-                <div class="icon__item d-flex flex-column align-items-center">
-                    <p class="icon pe-7s-like"></p>
-                    <span>735</span>
-                    <p class="text">happy clients</p>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="container-fluid col-12">
+        <div class="icon__bg d-flex align-items-center">
+            <div class="container">
+                <div class="row">
+                    <div class="icon__item col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <p class="icon pe-7s-portfolio"></p>
+                        <span>548</span>
+                        <p class="text">project complated</p>
+                    </div>
+    
+                    <div class="icon__item col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <p class="icon pe-7s-clock"></p>
+                        <span>1465</span>
+                        <p class="text">working hours</p>
+                    </div>
+    
+                    <div class="icon__item col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <p class="icon pe-7s-star"></p>
+                        <span>612</span>
+                        <p class="text">positive feedbacks</p>
+                    </div>
+    
+                    <div class="icon__item col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center">
+                        <p class="icon pe-7s-like"></p>
+                        <span>735</span>
+                        <p class="text">happy clients</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section class="about__me">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="about__me-inner col-12 col-md-6">
+                        <h3 class="about__me-title">About me</h3>
+                        <p class="about__me-description">Given let waters air sea had you'll, may seed abundantly fish. 
+                            Were, you'll earth forth winged above brought. Own darkness 
+                            they're him can't fourth sea place have.</p>
+                        <p class="about__me-description">So the above May stars cattle fruitful face shall. Tree it, winged. 
+                            Every signs male firmament us. Morning him.</p>
+                            <img class="signature" src="Pictures/sig-v-nature.png" alt="error">
+                            <img src="Pictures/smile-man.png" alt="error" class="image__men d-none d-md-flex">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div class="container-fluid col-12">
             <div class="row">
                 <div class="left col-6">
                     <img src="Pictures/smile-man.png" alt="">
                 </div>
-                <div class="right col-6 d-flex flex-column align-items-start justify-content-center">
-                    <h3>About me</h3>
-                    <p>Given let waters air sea had you'll, may seed abundantly fish. 
+                <div class="right col-6 d-flex flex-column align-items-center justify-content-center">
+                    <h3 class="col-4">About me</h3>
+                    <p class="col-4">Given let waters air sea had you'll, may seed abundantly fish. 
                         Were, you'll earth forth winged above brought. Own darkness 
                         they're him can't fourth sea place have.</p>
-                    <p>So the above May stars cattle fruitful face shall. Tree it, winged. 
+                    <p class="col-5">So the above May stars cattle fruitful face shall. Tree it, winged. 
                         Every signs male firmament us. Morning him.</p>
                     <img src="Pictures/sig-v-nature.png" alt="error">
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="talk d-flex justify-content-center">
-            <div class="row d-flex justify-content-center">
-            <div class="text talk d-flex flex-column align-items-center justify-content-center col-7">
-            <h3>Need a Project</h3>
-            <p>Let us know what you're looking for in an agency. We'll take a look and see 
-            if this could be the start of something beautiful.</p>
-            <a href="">let's talk</a>
-                </div>
+        <div class="talk">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="text talk d-flex flex-column align-items-center justify-content-center col-12 col-md-7">
+                    <h3>Need a Project</h3>
+                    <p>Let us know what you're looking for in an agency. We'll take a look and see 
+                    if this could be the start of something beautiful.</p>
+                    <a href="">let's talk</a>
+                        </div>
+                    </div>
             </div>
         </div>
     </main>
 
     <footer>
-        <div class="container d-flex justify-content-between align-items-center">
-            <div class="left">
+        <div class="container d-flex align-items-center justify-content-center">
+           <div class="row d-flex justify-content-between align-items-center">
+            <div class="left col-12 col-md-6 col-lg-3">
                 <h4>Macintosh Design, Inc.</h4>
                 <p>© 2017 Macintosh. All rights reserved.</p>
                 <p>Designed by Jefry.</p>
             </div>
-            <div class="middle">
+            <div class="middle col-12 col-md-6 col-lg-3">
                 <a href="">hello@pirolltheme.com</a> <br>
                 <a href="+(44) 987 - 065 - 908">+44 987 065 908</a>
             </div>
-            <div class="right d-flex justify-content-between col-3">
+            <div class="right col-12 col-md-6 col-lg-3 d-flex justify-content-between">
                 <div>
                     <ul>
                         <li><a href="">Project</a></li>
@@ -125,6 +153,7 @@
                     </ul>
                 </div>
             </div>
+           </div>
         </div>
     </footer>
     
